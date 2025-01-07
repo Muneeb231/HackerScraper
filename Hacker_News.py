@@ -33,7 +33,7 @@ def sort_stories_by_votes(hnlist):
 # Function to create custom Hacker News
 def create_custom_hn(articles, votes):
     hn = []
-    for index, item in enumerate(links):
+    for index, item in enumerate(art):
         title = item.getText()
         href = item.get('href', None)
         vote = subtext[index].select('.score')
