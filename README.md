@@ -1,0 +1,1 @@
+A Python-based web scraper designed to extract and prioritize top stories from Hacker News. The scraper collects articles with 100+ votes, efficiently parses and analyzes the HTML content, and presents the results in a structured format.
